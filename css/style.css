@@ -327,6 +327,10 @@ a {
 
 /* sezione partners */
 
+.container-partners{
+    max-width: 1000px;
+}
+
 .section-partners{
     padding-top:110px ;
     padding-bottom:55px ;
@@ -335,6 +339,7 @@ a {
 
 .section-partners h2{
     margin: 30px;
+    color: #9792e4;
 }
 
 .card--partners{
@@ -343,7 +348,10 @@ a {
 
 
 .img--testimonial{
-    max-width: 80px;
+    max-width: 200px;
+    padding-left: 16px;
+    padding-top: 20px;
+    display: block;
 }
 
 .card--partners{
@@ -352,7 +360,69 @@ a {
     flex-direction: column;
     margin: 25px;
     text-align: center;
+    color: white;
 }
+
+
+/* inizio sezione benefits */
+
+.benefits {
+    background-color: #9792e4;
+}
+
+.card.card--b {
+	background-color: white;
+	padding: 32px 24px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: left;
+	height: 100%;
+	/* border: 2px solid #333333; */
+	/* min-height: 200px; */
+}
+
+
+.card.card--b .card__title-b {
+	color: var(--purple);
+}
+
+.card.card--b .card__title {
+	font-size: 1.5rem;
+}
+
+.card.card--b .card__icon {
+	font-size: 4rem;
+}
+
+.card.card--b .card__description {
+	line-height: 1.7em;
+}
+
+
+
+.card.card--b{
+	align-self: flex-end;
+}
+
+.benefit--n{
+    font-size: xx-large;
+    color: #9792e4;
+    /* aggiungi grassetto */
+}
+
+.benefits h1{
+    color: white;
+}
+
+
+
+
+
+
+
+
 
 
 
