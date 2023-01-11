@@ -35,17 +35,20 @@ a {
 /* CONTAINER */
 
 .container {
-    max-width: 1140px;
+    max-width: 1204; /*prima sol*/
+    /* max-width: 1140px; seconda sol */
     margin: 0 auto;
-    /* padding: 0 20px; */
+    padding: 0 32px; 
 }
 
+/* Soluzione più contorta
 @media screen  and(max-width: 1203) {
     .container{
+        max-width: 1204;
         padding-left: 32px;
         padding-right: 32px;
     }
-}
+} */
 
 /* ROW */
 
