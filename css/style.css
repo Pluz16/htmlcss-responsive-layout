@@ -325,9 +325,34 @@ a {
 }
 
 
-/* sezione partner */
+/* sezione partners */
 
-.section-partner{
+.section-partners{
     padding-top:110px ;
     padding-bottom:55px ;
+    text-align: center;
 }
+
+.section-partners h2{
+    margin: 30px;
+}
+
+.card--partners{
+    background-color: var(--purple);
+}
+
+
+.img--testimonial{
+    max-width: 80px;
+}
+
+.card--partners{
+    border-radius: 50px;
+    display: flexbox;
+    flex-direction: column;
+    margin: 25px;
+    text-align: center;
+}
+
+
+
