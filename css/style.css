@@ -347,16 +347,17 @@ a {
 }
 
 
-.img--testimonial{
+.img--testimonial img{
     max-width: 200px;
     padding-left: 16px;
     padding-top: 20px;
     display: block;
+    border-radius: 50%;
 }
 
 .card--partners{
     border-radius: 50px;
-    display: flexbox;
+    /* display: flexbox; */
     flex-direction: column;
     margin: 25px;
     text-align: center;
@@ -368,6 +369,9 @@ a {
 
 .benefits {
     background-color: #9792e4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .card.card--b {
@@ -415,6 +419,10 @@ a {
 .benefits h1{
     color: white;
 }
+
+
+
+
 
 
 
