@@ -37,6 +37,14 @@ a {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    /* padding: 0 20px; */
+}
+
+@media screen  and(max-width: 1203) {
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
 }
 
 /* ROW */
@@ -107,6 +115,10 @@ a {
 
 /* HERO */
 
+.hero{
+    padding: 50px 0 100px;
+}
+
 .card {
     background-color: var(--lightblue);
     padding: 20px;
@@ -115,11 +127,25 @@ a {
     min-height: 200px;
 }
 
+.row.gutter{
+    row-gap: 24px;
+    margin: 0 -12px;
+}
+
+/* Prendiamo tutti gli elementi figli diretti di gutter che iniziano con classe col */
+.row.gutter > [class^="col"]{
+    padding: 0 12px;
+}
+
 /* MEDIAUERY HERO */
 
 @media only screen and (max-width: 575px) {
     .hero [class^="col-"] {
         flex-basis: calc(100%);
+    }
+
+    .hero {
+        padding-bottom: 80px;
     }
 
 }
